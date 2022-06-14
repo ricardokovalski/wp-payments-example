@@ -1,32 +1,31 @@
-# Appmax
+=== Appmax ===
+Contributors: appmaxplataforma
+Tags: woocommerce, appmax, payment
+Requires at least: 5.8.1
+Tested up to: 5.8.1
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**Contributors: appmaxplataforma**
-**Tags: appmax, payment**
-**Requires at least: 5.8.1**
-**Tested up to: 5.8.1**
-**Stable tag: 1.0.0**
-**License: GPLv2 or later**
-**License URI: http://www.gnu.org/licenses/gpl-2.0.html**
+== Description ==
 
-## Description
-
-### Compatibilidade
+= Compatibilidade =
 
 Compatível desde a versão 5.9.0 do WooCommerce.
 
-### Instalação
+= Instalação =
 
 Confira o nosso guia de instalação e configuração do plugin na aba [Installation](http://wordpress.org/plugins/appmax-woocommerce/installation/).
 
-### Dúvidas?
+= Dúvidas? =
 
 Você pode esclarecer suas dúvidas usando:
 
 * Criando um tópico no [fórum de ajuda do WordPress](http://wordpress.org/support/plugin/appmax-woocommerce).
 
-## Installation
+== Installation ==
 
-### Instalação do plugin
+= Instalação do plugin =
 
 Antes de instalarmos o plugin, sua loja precisa respeitar alguns requisitos mínimos, que são:
 
@@ -36,7 +35,7 @@ Antes de instalarmos o plugin, sua loja precisa respeitar alguns requisitos mín
 
 Após verificar os requisitos, vá para a aba "Plugins" > "Adicionar novo" e pesquise pelo nome **Appmax**.
 
-### Configuração do plugin
+= Configuração do plugin =
 
 Uma vez instalado o plugin e ativado, haverá alguns botões de atalho, que são:
 
@@ -54,7 +53,7 @@ os métodos de pagamento da Appmax, são eles:
 
 Habilite ambos e em seguida vamos configurar cada método de pagamento.
 
-### Configurando o Appmax - Cartão de Crédito
+= Configurando o Appmax - Cartão de Crédito =
 
 Após de clicar em "Gerenciar", deixe sempre checado a opção "Ativar Appmax - Cartão de Crédito".
 
@@ -76,7 +75,7 @@ No campo **Criar pedido na loja com status**, selecione a opção "Em processame
 
 > **Atenção**: Deixe habilitado a opção "Habilitar log". Estando essa opção habilitado, podemos ver os logs de transações de Cartão de Crédito.
 
-### Configurando o Appmax - Boleto Bancário
+= Configurando o Appmax - Boleto Bancário =
 
 Após de clicar em "Gerenciar", deixe sempre checado a opção "Ativar Appmax - Boleto Bancário".
 
@@ -90,7 +89,7 @@ No campo **Receber Pedidos de CallCenter** de **Boleto**, selecione a opção "Q
 
 > **Atenção**: Deixe habilitado a opção "Habilitar log". Estando essa opção habilitado, podemos ver os logs de transações de Boleto Bancário.
 
-### Configurando o Appmax - Pix
+= Configurando o Appmax - Pix =
 
 Após de clicar em "Gerenciar", deixe sempre checado a opção "Ativar Appmax - Pix".
 
@@ -102,19 +101,19 @@ No campo **Receber Pedidos de CallCenter** de **Pix**, selecione a opção "Quan
 
 > **Atenção**: Deixe habilitado a opção "Habilitar log". Estando essa opção habilitado, podemos ver os logs de transações de Pix.
 
-### Checkout por Cartão de Crédito
+= Checkout por Cartão de Crédito =
 
 Quando o checkout for a opção Appmax - Cartão de Crédito, todos os campos são **obrigatórios** e devem ser preenchidos.
 
-### Checkout por Boleto Bancário
+= Checkout por Boleto Bancário =
 
 Quando o checkout for a opção Appmax - Boleto Bancário, todos os campos são **obrigatórios** e devem ser preenchidos.
 
-### Checkout por Pix
+= Checkout por Pix =
 
 Quando o checkout for a opção Appmax - Pix, todos os campos são **obrigatórios** e devem ser preenchidos.
 
-### Logs
+= Logs =
 
 Para visualizar os logs das transações vá para a aba "WooCommerce" > "Status". E em seguida, clique na tab "Logs".
 
@@ -134,8 +133,8 @@ Logs de transações de Boleto: **appmax-billet-{DATA-ATUAL}-{HASH}**
 
 Logs de transações de Pix: **appmax-pix-{DATA-ATUAL}-{HASH}**
 
-## Changelog
+== Changelog ==
 
-### 1.0.0
+= 1.0.0 =
 
 * Versão inicial do plugin
